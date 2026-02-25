@@ -1,6 +1,6 @@
 # ProManager — Application de Gestion de Projets Collaborative
 
-Une application fullstack de gestion de projets inspirée de Trello/Jira, construite avec **Symfony 6.4** (API REST) et **React + Vite** (frontend).
+Une application fullstack de gestion de projets inspirée de Trello/Jira, construite avec **Symfony** (API REST) et **React + Vite** (frontend).
 
 ---
 
