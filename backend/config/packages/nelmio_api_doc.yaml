@@ -1,0 +1,22 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: ProManager API
+            description: |
+                REST API for ProManager - A collaborative project management application.
+
+                ## Authentication
+                This API uses JWT Bearer tokens. Use the `/api/auth/login` endpoint to obtain a token,
+                then include it in the `Authorization: Bearer <token>` header for all secured requests.
+            version: 1.0.0
+        components:
+            securitySchemes:
+                Bearer:
+                    type: http
+                    scheme: bearer
+                    bearerFormat: JWT
+        security:
+            - Bearer: []
+    areas:
+        path_patterns:
+            - ^/api(?!/doc$)
